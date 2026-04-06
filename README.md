@@ -44,21 +44,6 @@ Scripts and training utilities for DVFS-aware NLP experiments on edge GPU platfo
 - `run_inference.py`
 - `test_memory_qnli.py`
 
-## Excluded From Version Control
-
-This repository intentionally excludes generated runs and local-only artifacts such as:
-
-- `runs/`
-- `results/`
-- `*.log`
-- `*.csv`
-- `*.tar.gz`
-- `env_pip_freeze.txt`
-- `google_credentials.json`
-- `__pycache__/`
-- `archive/`
-- `governor/`
-
 ## Basic Workflow
 
 1. Set CPU/GPU frequencies with the helper scripts.
